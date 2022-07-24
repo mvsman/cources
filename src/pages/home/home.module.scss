@@ -1,0 +1,12 @@
+@import '../../tokens/variables';
+.main {
+  height: 100vh;
+  background: $color-primary-main;
+
+  .content {
+    max-width: $width-layout;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 90px;
+  }
+}
